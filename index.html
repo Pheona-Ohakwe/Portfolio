@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="./static/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="shortcut icon" type="image/png" href="./static/wings.png">
+    </head>   
+    <body>
+        <div class="container">
+        <div class="background-container"></div>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Full Stack Software Engineer</h1>
+        <main>
+            <article class="profile-container">
+                <img src="./static/images/compressed_pic.png" id="profile-picture" alt="My picture">
+                <div class="text-container">
+                    
+                    <div class="Name">
+                        <h2> Pheona Ohakwe</h2>
+                    </div>
+                    <!-- <div class="title">
+                        <h3>Full Stack Software Engineer</h3>
+                    </div> -->
+                    <div class="bio">
+                        <p>Welcome to my portfolio! I'm excited to share my work with you. Feel free to explore, and don’t hesitate to reach out if you have any questions.</p>
+                     <br> </br>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <section id="contact">
+                <h3>Contact Me</h3>
+                <form action="https://formspree.io/f/xdknlljz" method="POST">
+                    <div class="form-label">
+                        <label for="name">Name</label>
+                    </div>
+                    <div>
+                        <input 
+                            id="name" 
+                            type="text"
+                            name="name"
+                            placeholder="Enter your name here" required>
+                    </div>
+                    <div class="form-label">
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input 
+                            id="email" 
+                            type="email"
+                            name="email"
+                            placeholder="Enter your email here" required>
+                    </div>
+                    <div class="form-label">
+                        <label for="message-field">Message</label>
+                    </div>
+                    <div>
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Enter your message here" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                
+                <div class="contact_links">
+                    <a href="https://www.linkedin.com/in/pohak/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Pheona-Ohakwe" target="_blank">GitHub</a>
+                   
+                </div>
+                <div class="email">
+                    <p>Email me directly at: pohakwe@gmail.com</p>
+                </div>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <p>&copy; 2024 Designed & Created by Pheona Ohakwe</p>
+        </footer>
+    </div>
+    </body> 
+</html>

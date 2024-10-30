@@ -1,0 +1,499 @@
+/* setting spacing to override default */
+p {
+    padding: 0;
+    margin:0; 
+}
+
+h1 {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: "Montserrat"; 
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Montserrat"; 
+    font-size: 22px;
+}
+
+h4 {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #1a1a4c;
+}
+
+h5 {
+    font-family: "Montserrat"; 
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+    color: #1a1a4c;
+}
+
+/* imported this font for the webpage */
+body {
+    background-color: #D4B8B1;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+/* applying flexbox properties to my container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+/* setting margins to 0 to override default space */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* setting the color scheme, spacing, and border in the header */
+header {
+    background-color: #4a1812;
+    border-bottom: 6px solid #866c69;
+    border-top: 6px solid #866c69;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* setting how the items in my list appear, using flexbox properties */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+/* setting the color scheme, spacing, and border in the footer */
+footer {
+    background-color: #4a1812;
+    border-top: 6px solid #866c69;
+    border-bottom: 6px solid #866c69;
+    text-align: center;
+    padding: 10px;
+    color: #D4B8B1;
+    width: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* setting spacing, borders, and the alignment of the text */
+article {
+    margin: 20px auto;
+    border: 2px solid #4a1812;
+    padding: 50px;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px  #4a1812;
+    text-align: left;
+}
+
+/* setting the color and spacing on the nav bar */
+nav {
+    background-color: #4a1812;
+    padding: 20px;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color:white;
+}
+
+/* Aligning items at the start of the cross axis */
+.profile-container {
+    display: flex;
+    align-items: flex-start; 
+    padding-bottom: 0;
+}
+
+.bio {
+    margin-top: 100px;
+}
+
+.Name {
+    margin-top: 100px;
+}
+
+.Name h2 {
+    text-decoration: none;
+    color: #1a1a4c;
+}
+
+/* setting the color the button shows on hover */
+button:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* setting the color and spacing of the button */
+button {
+    border: 2px solid #4a1812;
+    background-color: #4a1812 !important;
+    color: #D4B8B1;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* setting how my links on the page look */
+a {
+    color: #D4B8B1;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* adjusting flexbox properties */
+main {
+    flex: 1; /* Grows to fill whatever the remaining space is */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+/* making sure the form is spaced well and border matching picture */
+form {
+    border: 3px solid #4a1812;
+    width: 50%;
+    margin: 0 auto 20px;
+    border-radius: 50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* creating a little space between the forms */
+.form-label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+}
+
+.email {
+    text-align: center;
+    padding-top: 20px;
+    color: #1a1a4c;
+}
+
+/* making the labels stand out a little more with the bold effect */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* targeting the text in my form to be a certain color */
+::placeholder {
+    color:  #cdd4b1;
+}
+
+/* spacing in text area */
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 2px solid #4a1812;
+    font-family: "Montserrat";
+}
+
+/* putting a border around my picture and setting the size */
+#profile-picture {
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+/* making the text the same color as nav bar so page flows better */
+div {
+    color: #4a1812 
+}
+
+/* spacing out my contact links to fill the container nicely */
+.contact_links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.contact_links a {
+    color: #4a1812;
+}
+
+.contact_links a:hover {
+    font-size: 20px;
+    color: #1a1a4c;
+}
+
+/*  the gap is adjusting the gap between images */
+.certifications-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-around;
+}
+
+.certifications li {
+    max-width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    font-size: 18px;
+    /* flex-basis: 45%; */
+}
+
+.certifications ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px; 
+}
+
+/* Ensures the last row is aligned to the left */
+.certifications ul:last-child {
+    justify-content: flex-start;
+}
+
+.text-container {
+    font-size: 18px;
+    text-align: left;
+}
+
+.ed-container {
+    font-size: 18px;
+    text-align: left;
+}
+
+.ed-container li {
+    text-align: left;
+}
+
+.experience-container {
+    font-size: 18px;
+}
+
+.ed-container h5 {
+    margin-bottom: 5px;
+}
+
+ul li p {
+    margin-top: 8px; 
+}
+
+/* items wrap to the next line if they exceed the container width */
+.Languages ul,
+.Frameworks ul, 
+.Tools_Dev_Ops ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width: 100%;
+} 
+
+.Databases ul,
+.Design_Prototyping ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 100%;
+}
+
+
+
+/* Adding some spacing between the items */
+.Languages ul li,
+.Frameworks ul li, 
+.Tools_Dev_Ops ul li {
+    margin: 10px; 
+}
+
+.languageAndFramework-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    width: 100%;
+}
+
+.languageAndFramework-container li {
+    font-size: 25px;
+}
+
+.Languages,
+.Frameworks,
+.Databases,
+.Tools_Dev_Ops,
+.Design_Prototyping {
+    flex: 1;
+    flex-basis: calc(100% - 20px); 
+    margin-bottom: 20px; 
+}
+
+.details-container ul li p em a {
+    color: #4a1812;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.details-container ul li p em a:hover {
+    color: #1a1a4c;
+    text-decoration: underline; 
+    font-weight: 700;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between images */
+    justify-content: space-between; /* Ensures even spacing */
+}
+
+.project-images img {
+    width: 100%; /* Ensures images fill their container */
+    height: auto; /* Maintains aspect ratio */
+    cursor: pointer; /* Indicates the images are clickable */
+    flex-basis: calc(50% - 10px); /* 2 images per row */
+    max-width: 300px; /* Ensures images don't get too large */
+    box-sizing: border-box; /* Includes padding and border in the element's width and height */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.project-images img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 and multiply by 100) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; /* Ensures the container doesn't exceed the parent's width */
+    background: #1a1a4c; /* Optional: Background color while loading */
+    margin-bottom: 20px; /* Optional: Space below the video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.download-button {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color:#4a1812;;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.download-button:hover {
+    background-color: #1a1a4c;;
+}
+
+/* Media query for very small screens to display 1 image per row */
+@media (max-width: 480px) {
+    .project-images img {
+        flex-basis: 100%; /* 1 image per row on very small screens */
+        max-width: 100%; /* Ensures image takes full width on small screens */
+    }
+}
+
+
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .profile-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #profile-picture {
+        margin-bottom: 20px; 
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .title,
+    .bio {
+        margin-top: 20px; 
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .certifications li {
+        flex-basis: 45%; 
+    }
+}
